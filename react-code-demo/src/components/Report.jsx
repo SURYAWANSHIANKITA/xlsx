@@ -145,7 +145,6 @@ const Report = ({
       </>
     )}
 
-    {/* Error Table */}
     {errors.length > 0 && (
       <>
         <Typography variant="h5" sx={{ mb: 2, mt: 4 }}>
@@ -193,7 +192,6 @@ const Report = ({
       </>
     )}
 
-    {/* Duplicate Table */}
     {duplicates.length > 0 && (
       <>
         <Typography variant="h5" sx={{ mt: 4, mb: 2 }}>
@@ -236,7 +234,6 @@ const Report = ({
       </>
     )}
 
-    {/* Save Button */}
     {showSave && validData.length > 0 && (
       <Box display="flex" justifyContent="center" mt={3}>
         <Button variant="contained" color="primary" onClick={onSave}>
